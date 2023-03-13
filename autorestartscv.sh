@@ -1,3 +1,9 @@
+#Add to crontab for automation schedule execution. In this case the time set is every 5 minutes.
+#*/5 *  * * *    root    sh /$PATH/autorestartsvc.sh -2>> /var/log/autorestartsvc.log
+
+#LOG Path
+#/var/log/autorestartsvc.log
+
 #Variable execute application status verification command
 a=$(netstat -tunlp | grep nginx)
 
