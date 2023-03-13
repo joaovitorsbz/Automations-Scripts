@@ -4,4 +4,4 @@ This repo for save scripts of sample automations
 
 ## Use case
 
-Automate restart service
+autorestartsvc.sh - Automate restart service
