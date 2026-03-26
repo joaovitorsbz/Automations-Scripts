@@ -17,7 +17,7 @@ c=1
 echo "$data | Checking if the NGINX is up!"
 
 # condition iteration
-if [ "$a" ] #check if the return is true
+#if [ "$a" ] #check if the return is true
 then
          echo "$data | Status [Active]: $a" #true displays port | process
 else
